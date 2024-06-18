@@ -43,7 +43,7 @@ const dataAnalystPricingPlans: PricingPlan[] = [
     description: 'Ideal for startups and small businesses starting with data analysis.',
     features: ['Basic Data Cleaning', 'Basic Statistical Analysis', 'Standard Reports'],
     services: [dataAnalystServiceDetails.DataAnalysis],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -52,7 +52,7 @@ const dataAnalystPricingPlans: PricingPlan[] = [
     description: 'Designed for businesses needing more advanced data analysis solutions.',
     features: ['Advanced Data Cleaning', 'Advanced Statistical Analysis', 'Custom Reports'],
     services: [dataAnalystServiceDetails.DataAnalysis, dataAnalystServiceDetails.DataVisualization],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -61,7 +61,7 @@ const dataAnalystPricingPlans: PricingPlan[] = [
     description: 'Suitable for large enterprises with comprehensive data analysis needs.',
     features: ['Full Data Analysis Suite', 'Advanced Data Visualization', '24/7 Support'],
     services: [dataAnalystServiceDetails.DataAnalysis, dataAnalystServiceDetails.DataVisualization],
-    cta: 'Join Premium',
+    cta: ' Buy Now',
   },
 ];
 

@@ -1,11 +1,9 @@
 "use client";
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Image from 'next/image';
 
 interface ServiceDetail {
   title: string;
-  imageArea:string;
   description: string;
   keyFeatures: string;
   link: string;
@@ -13,42 +11,36 @@ interface ServiceDetail {
 
 const serviceDetails: Record<string, ServiceDetail> = {
   AppDevelopment: {
-    imageArea: "/appdev.jpg",
     title: "App Development",
     description: "App Development involves creating software applications specifically designed to run on mobile devices such as smartphones and tablets.",
     keyFeatures: "Key features include cross-platform compatibility, user-friendly interfaces, and robust security.",
     link: "/appdevelopment"
   },
   WebDevelopment: {
-    imageArea:"/webdev.jpg",
     title: "Web Development",
     description: "Web Development involves designing and building websites using programming languages such as HTML, CSS, and JavaScript, along with frameworks and libraries.",
     keyFeatures: "Key features include responsive design, SEO optimization, and e-commerce capabilities.",
     link: "/webdevelopment"
   },
   AI: {
-    imageArea:"/ai.png",
     title: "Artificial Intelligence (AI)",
     description: "Artificial Intelligence (AI) technologies enable computers to learn from data and perform tasks that typically require human intelligence.",
     keyFeatures: "Key features include machine learning algorithms, natural language processing, and computer vision.",
     link: "/Ai"
   },
   CloudComputing: {
-    imageArea:"/cloudimg.jpg",
     title: "Cloud Computing",
     description: "Cloud Computing involves delivering computing services such as servers, storage, databases, networking, software, and analytics over the Internet (the cloud).",
     keyFeatures: "Key features include scalability, flexibility, cost-efficiency, and security enhancements.",
     link: "/cloudcomputing"
   },
   ITConsulting: {
-    imageArea:"/consulting.jpg",
     title: "IT Consulting",
     description: "IT Consulting provides strategic advisory services to businesses to help them optimize their IT infrastructure, operations, and processes.",
     keyFeatures: "Key features include strategic planning, system integration, cybersecurity consulting, and digital transformation.",
     link: "/counsulting"
   },
   DataAnalysis: {
-    imageArea:"/data.jpg",
     title: "Data Analysis",
     description: "Data Analysis involves examining raw data with the purpose of drawing conclusions about that information.",
     keyFeatures: "Key features include data visualization, statistical analysis, predictive modeling, and business intelligence.",
@@ -64,7 +56,7 @@ const ServiceDetails: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-around items-start mt-8">
+    <div className="flex flex-col md:flex-row justify-around items-start mt-8 max-w-screen overflow-hidden">
       <div className="w-full md:w-1/4 p-4 bg-[#000000d6] rounded-l-xl mb-8 md:mb-0 md:mr-4">
         <ul>
           {Object.keys(serviceDetails).map(service => (
@@ -84,7 +76,7 @@ const ServiceDetails: React.FC = () => {
         </ul>
       </div>
 
-      <div className="md:w-1/2 p-0 bg-white">
+      <div className="w-full md:w-1/2 p-4 bg-white">
         <AnimatePresence>
           {selectedService && (
             <motion.div
@@ -94,7 +86,6 @@ const ServiceDetails: React.FC = () => {
               exit={{ opacity: 0, y: 100 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <Image src={serviceDetails[selectedService].imageArea}  width={300} height={300} priority alt='' />
               <h2 className="text-lg font-semibold mb-4">{serviceDetails[selectedService].title}</h2>
               <p className="mb-4">{serviceDetails[selectedService].description}</p>
               <p className="mb-4">{serviceDetails[selectedService].keyFeatures}</p>
