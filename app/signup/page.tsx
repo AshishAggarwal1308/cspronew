@@ -72,7 +72,7 @@ const SignupForm: React.FC = () => {
   return (
     
     <div
-      className="mt-20 flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4"
+      className="mt-20  flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4"
       
     >
       <div
