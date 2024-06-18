@@ -55,7 +55,7 @@ const cloudPricingPlans: PricingPlan[] = [
     description: 'Suitable for small businesses and startups starting with cloud services.',
     features: ['Basic Cloud Setup', 'Limited Support', 'Basic Security'],
     services: [cloudServiceDetails.CloudInfrastructure],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -64,7 +64,7 @@ const cloudPricingPlans: PricingPlan[] = [
     description: 'Ideal for businesses needing advanced cloud solutions and support.',
     features: ['Advanced Cloud Setup', '24/7 Support', 'Enhanced Security'],
     services: [cloudServiceDetails.CloudInfrastructure, cloudServiceDetails.CloudMigration],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -73,7 +73,7 @@ const cloudPricingPlans: PricingPlan[] = [
     description: 'Designed for large enterprises requiring comprehensive cloud services.',
     features: ['Full Cloud Infrastructure', 'Priority Support', 'Maximum Security'],
     services: [cloudServiceDetails.CloudInfrastructure, cloudServiceDetails.CloudMigration],
-    cta: 'Join Premium',
+    cta: 'Buy Now',
   },
 ];
 

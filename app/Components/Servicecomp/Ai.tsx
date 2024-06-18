@@ -43,7 +43,7 @@ const aiPricingPlans: PricingPlan[] = [
     description: 'Ideal for startups and small businesses starting with AI solutions.',
     features: ['Basic ML Models', 'Data Preprocessing', 'Basic Support'],
     services: [aiServiceDetails.MachineLearning],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -52,7 +52,7 @@ const aiPricingPlans: PricingPlan[] = [
     description: 'Designed for businesses needing more advanced AI solutions.',
     features: ['Advanced ML Models', 'NLP Integration', '24/7 Support'],
     services: [aiServiceDetails.MachineLearning, aiServiceDetails.NaturalLanguageProcessing],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -61,7 +61,7 @@ const aiPricingPlans: PricingPlan[] = [
     description: 'Suitable for large enterprises with comprehensive AI needs.',
     features: ['Full AI Suite', 'Custom Model Development', 'Priority Support'],
     services: [aiServiceDetails.MachineLearning, aiServiceDetails.NaturalLanguageProcessing],
-    cta: 'Join Premium',
+    cta: 'Buy Now',
   },
 ];
 

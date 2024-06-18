@@ -55,7 +55,7 @@ const appPricingPlans: PricingPlan[] = [
     description: 'Ideal for startups and small businesses with basic app development needs.',
     features: ['Basic App Design', 'SEO Optimization', 'Responsive Design'],
     services: [appServiceDetails.MobileAppDevelopment],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -64,7 +64,7 @@ const appPricingPlans: PricingPlan[] = [
     description: 'Designed for growing businesses needing more advanced app solutions.',
     features: ['Custom App Design', 'Enhanced SEO', 'E-commerce Integration'],
     services: [appServiceDetails.MobileAppDevelopment, appServiceDetails.UXUIDesign],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -73,7 +73,7 @@ const appPricingPlans: PricingPlan[] = [
     description: 'Suitable for large enterprises with comprehensive app development needs.',
     features: ['Full Stack Development', 'Advanced SEO', '24/7 Support'],
     services: [appServiceDetails.MobileAppDevelopment, appServiceDetails.UXUIDesign],
-    cta: 'Join Premium',
+    cta: 'Buy Now',
   },
 ];
 

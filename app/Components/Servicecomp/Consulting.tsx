@@ -43,7 +43,7 @@ const itConsultingPricingPlans: PricingPlan[] = [
     description: 'Ideal for startups and small businesses needing basic IT consulting services.',
     features: ['Strategic IT Planning', 'System Analysis', 'Process Optimization'],
     services: [itConsultingServiceDetails.StrategicPlanning],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -52,7 +52,7 @@ const itConsultingPricingPlans: PricingPlan[] = [
     description: 'Designed for mid-sized businesses requiring comprehensive IT consulting solutions.',
     features: ['Custom IT Strategy', 'System Integration', 'Technical Support'],
     services: [itConsultingServiceDetails.StrategicPlanning, itConsultingServiceDetails.SystemIntegration],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -61,7 +61,7 @@ const itConsultingPricingPlans: PricingPlan[] = [
     description: 'Tailored for large enterprises with complex IT infrastructure and strategic needs.',
     features: ['Enterprise IT Solutions', 'Full System Integration', '24/7 Support'],
     services: [itConsultingServiceDetails.StrategicPlanning, itConsultingServiceDetails.SystemIntegration],
-    cta: 'Join Premium',
+    cta: 'Buy Now',
   },
 ];
 

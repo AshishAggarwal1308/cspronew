@@ -57,7 +57,7 @@ const WebDevelopmentPage: React.FC = () => {
       description: 'Ideal for startups and small businesses with basic web development needs.',
       features: ['Basic Website Design', 'SEO Optimization', 'Responsive Design'],
       services: [serviceDetails.WebDevelopment],
-      cta: 'Get Started',
+      cta: 'Buy Now',
     },
     {
       plan: 'Advanced',
@@ -66,7 +66,7 @@ const WebDevelopmentPage: React.FC = () => {
       description: 'Designed for growing businesses needing more advanced web solutions.',
       features: ['Custom Website Design', 'Enhanced SEO', 'E-commerce Integration'],
       services: [serviceDetails.WebDevelopment, serviceDetails.Ecommerce],
-      cta: 'Upgrade Now',
+      cta: 'Buy Now',
     },
     {
       plan: 'Premium',
@@ -75,7 +75,7 @@ const WebDevelopmentPage: React.FC = () => {
       description: 'Suitable for large enterprises with comprehensive web development needs.',
       features: ['Full Stack Development', 'Advanced SEO', '24/7 Support'],
       services: [serviceDetails.WebDevelopment, serviceDetails.Ecommerce],
-      cta: 'Join Premium',
+      cta: 'Buy Now',
     },
   ];
 

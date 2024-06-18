@@ -43,7 +43,7 @@ const cyberSecurityPricingPlans: PricingPlan[] = [
     description: 'Ideal for startups and small businesses starting with cybersecurity measures.',
     features: ['Basic Threat Detection', 'Regular Security Audits', 'Standard Reports'],
     services: [cyberSecurityServiceDetails.ThreatDetection],
-    cta: 'Get Started',
+    cta: 'Buy Now',
   },
   {
     plan: 'Advanced',
@@ -52,7 +52,7 @@ const cyberSecurityPricingPlans: PricingPlan[] = [
     description: 'Designed for businesses needing more advanced cybersecurity solutions.',
     features: ['Advanced Threat Detection', 'Comprehensive Security Audits', 'Custom Reports'],
     services: [cyberSecurityServiceDetails.ThreatDetection, cyberSecurityServiceDetails.VulnerabilityAssessment],
-    cta: 'Upgrade Now',
+    cta: 'Buy Now',
   },
   {
     plan: 'Premium',
@@ -61,7 +61,7 @@ const cyberSecurityPricingPlans: PricingPlan[] = [
     description: 'Suitable for large enterprises with comprehensive cybersecurity needs.',
     features: ['Full Cybersecurity Suite', 'Advanced Vulnerability Assessment', '24/7 Support'],
     services: [cyberSecurityServiceDetails.ThreatDetection, cyberSecurityServiceDetails.VulnerabilityAssessment],
-    cta: 'Join Premium',
+    cta: 'Buy Now',
   },
 ];
 
