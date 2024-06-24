@@ -24,7 +24,7 @@ const Expertise = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-start justify-between mt-20 max-w-[85rem] mx-auto px-4 md:px-12 z-0" ref={ref}>
+    <div className="flex flex-col md:flex-row items-start justify-between mt-20 w-[100] mx-0 px-4 md:px-12 z-0" ref={ref}>
       <motion.div
         className="md:w-2/5 lg:w-1/2"
         initial="hidden"

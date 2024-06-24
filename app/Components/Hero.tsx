@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div
-      className="flex items-center justify-center w-[98.9vw] lg:h-[94vh] bg-cover bg-center relative"
+      className="flex items-center justify-center w-[100%] lg:h-[95vh] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${Hero.src})` }}
     >
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>

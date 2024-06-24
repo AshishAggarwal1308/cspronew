@@ -55,7 +55,7 @@ const CompanyFounders = () => {
         <div ref={founder1Ref} className="flex flex-col lg:flex-row items-center lg:space-x-12">
           <div className="lg:w-1/3 mb-6 lg:mb-0">
             <motion.img
-              src="/founder1.jpg" // Replace with actual image path
+              src="https://media.licdn.com/dms/image/D4D03AQFQrDKguGu26g/profile-displayphoto-shrink_800_800/0/1718287868469?e=1724889600&v=beta&t=dKAM4hyVWqOh2c7ugDLv0WzTY2zL7wKUhEBPINThXmE" // Replace with actual image path
               alt="Founder 1"
               className="rounded-full h-40 w-40 lg:h-64 lg:w-64 object-cover shadow-lg"
               initial={{ opacity: 0, scale: 0.5 }}
@@ -70,9 +70,8 @@ const CompanyFounders = () => {
               transition={{ duration: 1 }}
             >
               <h2 className="text-3xl  text-[#7a2536]  font-bold mb-4">Mr Chandra Gupta</h2>
-              <p className="text-lg max-w-md mx-auto lg:mx-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis
-                mattis tortor, sit amet suscipit metus malesuada in.
+              <p className="text-lg max-w-xl mx-auto lg:mx-0">
+              At CSPRO Technology, we are committed to delivering excellence in every project we undertake. Our mission is to empower businesses with cutting-edge technology solutions that drive growth, efficiency, and success. Whether you are a startup, a growing enterprise, or an established organization, our team of experienced professionals is dedicated to providing tailored IT services that meet your unique needs.
               </p>
             </motion.div>
           </div>

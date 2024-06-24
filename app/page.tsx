@@ -17,7 +17,7 @@ export default function Page() {
       <Hero />
       <Intro />
       <ServiceDetails />
-      <Expertise />
+      {/* <Expertise /> */}
       <Workflows />
       <GlobalDemo /> 
       <InfiniteMovingCardsDemo />

@@ -49,11 +49,11 @@ function Footer() {
                                     About us
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Careers
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="/Tech" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Blogs
@@ -99,7 +99,7 @@ function Footer() {
                             Csprotechnology            </a>
                         . All Rights Reserved.
                     </p>
-                    <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+                    {/* <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
                         <a href="#" className="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
                             <FaFacebookSquare style={{fontSize:'24px'}}/>
                         </a>
@@ -112,7 +112,7 @@ function Footer() {
                         <a href="#" className="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
                             <FaSquareXTwitter style={{fontSize:'24px'}}/>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>
