@@ -38,46 +38,46 @@ const navListMenuItems = [
     title: "Web Development",
     description: "Custom web development solutions tailored to your business needs.",
     icon: GlobeAmericasIcon,
-    Link:"/webdevelopment"
+    Link:"/web-development"
   },
   {
     title: "Mobile App Development",
     description: "Design and development of intuitive mobile applications for iOS and Android platforms.",
     icon: PhoneIcon,
-    Link:"/appdevelopment"
+    Link:"/app-development"
 
   },
   {
     title: "Cloud Computing",
     description: "Scalable and secure cloud solutions for efficient data management and accessibility.",
     icon: SunIcon,
-    Link:"/cloudcomputing"
+    Link:"/cloud-computing"
 
   },
   {
     title: "Data Analytics",
     description: "Insights-driven data analytics services to optimize business decision-making processes.",
     icon: NewspaperIcon,
-    Link:"/dataanalytics"
+    Link:"/data-analytics"
 
   },
   {
     title: "Artificial Intelligence",
     description: "Harness the power of AI and machine learning to automate processes and gain predictive insights.",
     icon: TagIcon,
-    Link:"/Ai"
+    Link:"/artificial-intelligence"
   },
   {
     title: "Cybersecurity",
     description: "Comprehensive cybersecurity solutions to safeguard your digital assets and privacy.",
     icon: RectangleGroupIcon,
-    Link:"/cybersecurity"
+    Link:"/cyber-security"
   },
   {
     title: "IT Consulting",
     description: "Expert guidance and strategic advice to help you leverage technology for business growth.",
     icon: UserGroupIcon,
-    Link:"/counsulting"
+    Link:"/it-consulting"
 
   },
 ];

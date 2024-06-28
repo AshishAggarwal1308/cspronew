@@ -21,20 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/(service)/webdevelopment/page": [
+    "/(service)/web-development/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(service)/webdevelopment/page.js"
+      "static/chunks/app/(service)/web-development/page.js"
     ],
     "/(service)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(service)/layout.js"
     ],
-    "/(service)/appdevelopment/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(service)/appdevelopment/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
