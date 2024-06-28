@@ -1120,6 +1120,10 @@ video {
 .m-4 {
   margin: 1rem;
 }
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1135,10 +1139,6 @@ video {
 .mx-px {
   margin-left: 1px;
   margin-right: 1px;
-}
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 .-ml-1 {
   margin-left: -0.25rem;
@@ -1455,6 +1455,12 @@ video {
 .w-9 {
   width: 2.25rem;
 }
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[100\] {
+  width: 100;
+}
 .w-\[110px\] {
   width: 110px;
 }
@@ -1487,18 +1493,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-\[100vw\] {
-  width: 100vw;
-}
-.w-\[100\] {
-  width: 100;
-}
-.w-\[100\%\] {
-  width: 100%;
-}
-.w-\[85rem\] {
-  width: 85rem;
 }
 .min-w-\[100vw\] {
   min-width: 100vw;
@@ -1565,9 +1559,6 @@ video {
 }
 .max-w-\[80\%\] {
   max-width: 80%;
-}
-.max-w-\[85rem\] {
-  max-width: 85rem;
 }
 .max-w-\[90\%\] {
   max-width: 90%;
