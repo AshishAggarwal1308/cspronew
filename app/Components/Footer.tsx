@@ -80,6 +80,11 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
+                                <a href="/Humanrights" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                    Human Rights Policy
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/Refund" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Refund Policy
                                 </a>
