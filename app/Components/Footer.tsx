@@ -70,27 +70,27 @@ function Footer() {
                                 Policies
                             </p>
                             <li>
-                                <a href="/Terms" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                <a href="/terms-and-conditions" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Terms & Conditions
                                 </a>
                             </li>
                             <li>
-                                <a href="/Privacy" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                <a href="/privacy-policy" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Privacy Policy
                                 </a>
                             </li>
                             <li>
-                                <a href="/Humanrights" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                <a href="/Human-rights" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Human Rights Policy
                                 </a>
                             </li>
                             <li>
-                                <a href="/Refund" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                <a href="/refund-policy" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Refund Policy
                                 </a>
                             </li>
                             <li>
-                                <a href="/Shipping" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
+                                <a href="/shipping-policy" className="block py-1.5 font-sans text-base font-normal leading-relaxed text-gray-700 antialiased transition-colors hover:text-blue-gray-900">
                                     Shipping Policy
                                 </a>
                             </li>

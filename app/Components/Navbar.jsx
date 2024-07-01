@@ -175,7 +175,7 @@ function NavList() {
       <NavListMenu />
       <Typography
         as="a"
-        href="/Tech"
+        href="/Technology"
         variant="small"
         color="blue-gray"
         className="font-medium"
