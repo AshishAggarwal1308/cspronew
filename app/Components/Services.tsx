@@ -68,11 +68,11 @@ const ServiceDetails: React.FC = () => {
       <div className="w-full md:w-1/4 p-4 bg-[#000000d6] rounded-l-xl mb-8 md:mb-0 md:mr-4">
         <ul>
           {Object.keys(serviceDetails).map(service => (
-            <li key={service} className="mb-4 w-full text-2xl font-bold cursor-pointer">
+            <li key={service} className="mb-4 w-full text-lg font-bold cursor-pointer">
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className={`w-full text-left px-2 py-1 ${
+                className={`w-full text-left px-1 py-1 ${
                   selectedService === service ? 'bg-[#7a2536] text-white shadow-lg lg:ml-10 w-full p-2' : 'text-white text-[15px]'
                 }`}
                 onClick={() => showDetails(service)}

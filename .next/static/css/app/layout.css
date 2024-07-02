@@ -1242,6 +1242,9 @@ video {
 .mt-px {
   margin-top: 1px;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .box-border {
   box-sizing: border-box;
 }

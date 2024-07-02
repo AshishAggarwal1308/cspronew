@@ -21,20 +21,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/(service)/web-development/page": [
+    "/(service)/artificial-intelligence/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(service)/web-development/page.js"
+      "static/chunks/app/(service)/artificial-intelligence/page.js"
     ],
     "/(service)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(service)/layout.js"
     ],
-    "/_not-found/page": [
+    "/(service)/app-development/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/(service)/app-development/page.js"
+    ],
+    "/Contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Contact/page.js"
     ]
   }
 }

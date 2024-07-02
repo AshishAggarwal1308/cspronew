@@ -90,14 +90,14 @@ const AppDevelopmentPage: React.FC = () => {
     <div className="min-h-screen flex flex-col items-center justify-center p-5">
       <h1 className="text-3xl font-bold mb-5">App Development Plans</h1>
       <div className="flex items-center mb-10">
-        <span className="mr-3">Per Month</span>
         <label className="inline-flex items-center cursor-pointer">
           <input type="checkbox" className="sr-only" checked={currency === 'USD'} onChange={toggleCurrency} />
+          <span className="mr-3 text-gray-700"> INR(₹)</span>
           <div className="relative">
             <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
             <div className={`dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition ${currency === 'USD' ? 'transform translate-x-6' : ''}`}></div>
           </div>
-          <span className="ml-3 text-gray-700">{currency === 'INR' ? 'INR(₹)' : 'USD($)'}</span>
+          <span className="ml-3 text-gray-700"> USD($)</span>
         </label>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">

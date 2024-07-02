@@ -1,4 +1,4 @@
-// File: D:\Projects\cspronew\app\(service)\layout.tsx
+// File: C:\Users\ashu1\Documents\CSPRO Final\cspronew\app\(service)\layout.tsx
 import * as entry from '../../../../app/(service)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
