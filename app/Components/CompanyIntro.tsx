@@ -11,22 +11,20 @@ const CompanyIntro = () => {
   const textRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Check if references are valid
     if (!backgroundRef.current || !textRef.current) return;
 
-    // Initialize GSAP animation for the background parallax effect
     gsap.to(backgroundRef.current, {
-      yPercent: 20, // Adjust this value for the desired parallax effect
+      yPercent: 20,
       ease: 'none',
       scrollTrigger: {
         trigger: backgroundRef.current,
         start: 'top top',
         end: 'bottom top',
-        scrub: true, // Enable scrubbing for smooth parallax effect
+        scrub: true, 
       },
     });
 
-    // Initialize GSAP animation for the text fade-in effect
+   
     gsap.fromTo(
       textRef.current,
       { opacity: 0, y: 50 },
@@ -39,7 +37,7 @@ const CompanyIntro = () => {
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play reverse play reverse',
-          markers: false, // Set to true for debugging
+          markers: false,
         },
       }
     );
@@ -47,14 +45,12 @@ const CompanyIntro = () => {
 
   return (
     <div className="relative overflow-hidden pt-8">
-      {/* Background image with parallax effect */}
       <div
         ref={backgroundRef}
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
         style={{ backgroundImage: 'url(/about.jpg)' }}
       ></div>
       
-      {/* Overlay with animated text */}
       <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50 p-4">
         <motion.div
           ref={textRef}

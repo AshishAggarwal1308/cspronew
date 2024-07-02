@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
-// Define prop types using TypeScript interfaces
 interface PricingCardProps {
   plan: string;
   priceINR: string;
@@ -14,12 +13,11 @@ interface PricingCardProps {
     keyFeatures: string;
   }[];
   cta: string;
-  currency: 'INR' | 'USD'; // Assuming currency can only be 'INR' or 'USD'
+  currency: 'INR' | 'USD';
 }
 
-// Component definition
 const PricingCard: React.FC<PricingCardProps> = ({ plan, priceINR, priceUSD, description, features, services, cta, currency }) => {
-  const cardRef = useRef<HTMLDivElement>(null); // useRef with explicit HTMLDivElement type
+  const cardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (cardRef.current) {

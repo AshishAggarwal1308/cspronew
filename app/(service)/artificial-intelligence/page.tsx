@@ -5,7 +5,6 @@ import AIServicesPage from '@/app/Components/Servicecomp/Ai';
 import ServiceIntro from '@/app/Components/Servicecomp/ServiceIntro';
 import WhyUs from '@/app/Components/Servicecomp/WhyUs';
 
-// Dummy content for WhyUs component (replace with your actual content):
 const service = "AI";
 const description = "Unlock the power of AI to automate tasks, gain valuable insights from data, and optimize your business processes. Our AI services encompass natural language processing, computer vision, predictive analytics, and more. We help you create intelligent applications that streamline operations, improve decision-making, and drive innovation.";
 
@@ -13,7 +12,7 @@ const pageTitle = "Discover Advanced AI Services for Your Business";
 const pageSubtitle = "Transform your business with cutting-edge AI solutions tailored to your needs.";
 const buttonText = "Contact now";
 const buttonLink = "/Contact";
-const backgroundImage = "/Ai.jpg"; // Replace with your image path
+const backgroundImage = "/Ai.jpg";
 
 const title = "AI Services to Revolutionize Your Business";
 const para1 = "At csprotechnology, we harness the power of Artificial Intelligence to deliver transformative solutions. Our team of AI experts works with advanced algorithms and machine learning models to provide customized AI services. Whether you're looking to automate processes, gain insights from data, or develop intelligent applications, we have the expertise to help you achieve your goals.";

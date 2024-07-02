@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "@/public/Hero.jpg"; // Ensure this is the correct path to your image
+import Hero from "@/public/Hero.jpg";
 import Link from "next/link";
 
 export default function Page() {

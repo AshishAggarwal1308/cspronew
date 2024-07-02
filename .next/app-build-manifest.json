@@ -31,10 +31,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(service)/layout.js"
     ],
-    "/_not-found/page": [
+    "/Technology/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/Technology/page.js"
+    ],
+    "/About/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/About/page.js"
+    ],
+    "/Contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Contact/page.js"
     ]
   }
 }

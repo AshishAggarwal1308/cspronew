@@ -6,10 +6,6 @@ const Contact = () => {
   const [service, setService] = useState('');
   const [otherService, setOtherService] = useState('');
 
-//   useEffect(() => {
-//     gsap.from('.form-container', { duration: 1, opacity: 0, y: -50 });
-//     gsap.from('.map-container', { duration: 1, opacity: 0, x: 50, delay: 0.5 });
-//   }, []);
 
   const handleServiceChange = (e:any) => {
     setService(e.target.value);

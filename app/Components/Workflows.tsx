@@ -31,25 +31,6 @@ const solutions = [
 ];
 
 const Workflows = () => {
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     '.solution-card',
-  //     { opacity: 0, y: 100 },
-  //     {
-  //       opacity: 1,
-  //       y: 0,
-  //       duration: 0.1,
-  //       stagger: 0.2,
-  //       scrollTrigger: {
-  //         trigger: '.solution-card',
-  //         start: 'top 100%',
-  //         // end: 'bottom 50%',
-  //         toggleActions: 'play reverse play reverse',
-  //         markers: false,
-  //       },
-  //     }
-  //   );
-  // }, []);
 
   return (
     <div style={{width:'100%', padding:'40px'}}> {/* Added pt-16 to avoid overlap with fixed navbar */}

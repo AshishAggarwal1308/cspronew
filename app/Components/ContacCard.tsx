@@ -15,7 +15,6 @@ const ContactCards = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Animation for Address Card
     gsap.fromTo(
       addressRef.current,
       { opacity: 0, y: 50 },
@@ -28,12 +27,11 @@ const ContactCards = () => {
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play reverse play reverse',
-          markers: false, // Set to true for debugging
+          markers: false, 
         },
       }
     );
 
-    // Animation for Email Card
     gsap.fromTo(
       emailRef.current,
       { opacity: 0, y: 50 },
@@ -46,12 +44,11 @@ const ContactCards = () => {
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play reverse play reverse',
-          markers: false, // Set to true for debugging
+          markers: false,
         },
       }
     );
 
-    // Animation for Phone Card
     gsap.fromTo(
       phoneRef.current,
       { opacity: 0, y: 50 },
@@ -64,7 +61,7 @@ const ContactCards = () => {
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play reverse play reverse',
-          markers: false, // Set to true for debugging
+          markers: false, 
         },
       }
     );
@@ -73,7 +70,6 @@ const ContactCards = () => {
   return (
     <div className="container mx-auto mt-24 p-6">
       <div className="flex flex-col md:flex-row justify-center md:space-x-8">
-        {/* Card 1: Address */}
         <motion.div
           ref={addressRef}
           initial={{ opacity: 0, y: 50 }}
@@ -90,7 +86,6 @@ const ContactCards = () => {
           </p>
         </motion.div>
 
-        {/* Card 2: Email */}
         <motion.div
           ref={emailRef}
           initial={{ opacity: 0, y: 50 }}
@@ -105,7 +100,6 @@ const ContactCards = () => {
           <p className="text-lg">info@csprotechnology.com</p>
         </motion.div>
 
-        {/* Card 3: Phone Number */}
         <motion.div
           ref={phoneRef}
           initial={{ opacity: 0, y: 50 }}

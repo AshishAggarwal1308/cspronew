@@ -68,66 +68,6 @@ export default function Page() {
           </CardActions>
         </Card>
       </div>
-      {/* <h3 style={{paddingLeft:'50px', marginTop:'40px', fontSize:'32px'}}>Latest Blogs</h3>
-      <div style={{padding:'50px', display:'flex', flexWrap:'wrap', gap:'40px', justifyContent:'center'}}>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardMedia
-            sx={{ height: 140 }}
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Read More</Button>
-          </CardActions>
-        </Card>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardMedia
-            sx={{ height: 140 }}
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Read More</Button>
-          </CardActions>
-        </Card>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardMedia
-            sx={{ height: 140 }}
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Read More</Button>
-          </CardActions>
-        </Card>
-      </div> */}
 
     </div>
   );

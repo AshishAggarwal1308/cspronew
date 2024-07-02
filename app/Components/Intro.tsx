@@ -17,26 +17,13 @@ export default function AboutCompany() {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* Company Title */}
           <h1 className="font-bold text-2xl md:text-4xl lg:text-4xl mb-6 text-[#7a2536]">
             Web Design, App Development And Digital Marketing Company In Delhi
           </h1>
 
-          {/* Company Introduction */}
           <p className="text-lg md:text-xl text-gray-700 mb-8">
             Cs Pro Technology, established in 2024, is a visionary company dedicated to providing cutting-edge enterprise solutions such as ERP, CRM, and factory automation software to drive business growth and enhance operational efficiency.
           </p>
-
-
-          {/* Call to Action */}
-          <div className="flex justify-center">
-            {/* <Link href="/About">
-            <button className="bg-[#7a2536] hover:bg-[#5e1d2b] text-white py-2 px-4 rounded-lg">
-              Learn More About Us
-            </button>
-            </Link> */}
-          
-          </div>
         </motion.div>
       </div>
     </div>

@@ -14,7 +14,7 @@ function page() {
                     </p>
                     <br></br><br></br>
                     <h4 style={{ fontSize: '24px' }}>Commitment to Human Rights</h4>
-                    <br></br>
+                    <br></br><br></br>
                     <ul>
                         <li><span style={{fontWeight:'600'}}>1. Universal Principles:</span>CSPRO TECHNOLOGY adheres to the United Nations Guiding Principles on Business and Human Rights and aligns our practices with the International Bill of Human Rights and the International Labour Organization’s Declaration on Fundamental Principles and Rights at Work.</li>
                         <br></br>

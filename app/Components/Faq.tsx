@@ -46,7 +46,6 @@ const FAQSection = () => {
 
   return (
     <div className="min-h-screen  flex flex-col items-center justify-center py-8 px-4 md:px-8 lg:px-16">
-      {/* FAQ Section */}
       <div className="max-w-7xl w-full">
         <h2 className="font-bold text-3xl mb-6 text-center text-brand">
           Frequently Asked Questions

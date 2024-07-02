@@ -2,7 +2,7 @@
 import ServiceHero from '@/app/Components/ServiceHero';
 import ITConsultingServicesPage from '@/app/Components/Servicecomp/Consulting';
 import ServiceIntro from '@/app/Components/Servicecomp/ServiceIntro';
-import WhyUs from '@/app/Components/Servicecomp/WhyUs'; // Import WhyUs component
+import WhyUs from '@/app/Components/Servicecomp/WhyUs';
 import React from 'react';
 
 const pageTitle = "Discover Advanced Cloud Consulting Services with CSPROTECHNOLOGY";
