@@ -35,10 +35,10 @@ import { useSession, signOut, signIn } from "next-auth/react";
 
 const navListMenuItems = [
   {
-    title: "Blogs",
+    title: "Web Development",
     description: "Custom web development solutions tailored to your business needs.",
     icon: GlobeAmericasIcon,
-    Link:"/Blogs"
+    Link:"/web-development"
   },
   {
     title: "Mobile App Development",
