@@ -35,10 +35,10 @@ import { useSession, signOut, signIn } from "next-auth/react";
 
 const navListMenuItems = [
   {
-    title: "Web Development",
+    title: "Blogs",
     description: "Custom web development solutions tailored to your business needs.",
     icon: GlobeAmericasIcon,
-    Link:"/web-development"
+    Link:"/Blogs"
   },
   {
     title: "Mobile App Development",
@@ -175,13 +175,13 @@ function NavList() {
       <NavListMenu />
       <Typography
         as="a"
-        href="/Technology"
+        href="/Blogs"
         variant="small"
         color="blue-gray"
         className="font-medium"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-l">
-          Technology
+          Blogs
         </ListItem>
       </Typography>
 
