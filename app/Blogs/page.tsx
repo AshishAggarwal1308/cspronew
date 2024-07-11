@@ -13,7 +13,7 @@ export default function Page() {
       <title>Explore CSProTechnology Latest Blog Posts</title>
       <meta name="description" content="Discover the latest insights and updates from CSProTechnology. Stay informed with our comprehensive range of blog posts covering technology trends, tutorials, and industry news." />
       <div className="flex items-center justify-center w-[98.9vw] lg:h-[94vh] bg-cover bg-center relative" style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/wooden-blocks-with-text-blog-wood-table-copy-space-white-background_1009751-3484.jpg?w=900)', backgroundPosition: 'center center', backgroundSize: 'cover' }} />
-      <h3 style={{ paddingLeft: '50px', marginTop: '40px', fontSize: '32px' }}>Popular Blogs</h3>
+      <h1 style={{ paddingLeft: '50px', marginTop: '40px', fontSize: '32px' }}>Popular Blogs</h1>
       <div style={{ padding: '50px', display: 'flex', flexWrap: 'wrap', gap: '40px', justifyContent: 'center' }}>
         <Card sx={{ maxWidth: 345, boxShadow: '6px 6px 16px black' }}>
           <CardMedia

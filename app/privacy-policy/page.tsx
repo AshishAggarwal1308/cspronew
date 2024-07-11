@@ -6,7 +6,7 @@ function page() {
         <div className="container-fluid" style={{ padding: '50px', marginTop: '100px' }}>
             <div className="row">
                 <div>
-                    <h3 style={{ fontSize: '32px' }}>Our Privacy Policy</h3>
+                    <h1 style={{ fontSize: '32px' }}>Our Privacy Policy</h1>
                 </div>
                 <p>Privacy Statement for CSPRO TECHNOLOGY
                     CSPRO TECHNOLOGY is committed to safeguarding the privacy and personal information of our clients and website visitors. We understand the importance of privacy in the digital age and strive to ensure that all personal data shared with us is treated with the utmost confidentiality and in accordance with applicable data protection laws.

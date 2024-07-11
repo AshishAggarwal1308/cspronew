@@ -46,7 +46,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan, priceINR, priceUSD, des
       <div className="space-y-4">
         {services.map((service, index) => (
           <div key={index} className="p-4 bg-gray-100 rounded-md">
-            <h3 className="font-semibold">{service.title}</h3>
+            <h1 className="font-semibold">{service.title}</h1>
             <p>{service.description}</p>
             <p className="text-sm text-gray-600">{service.keyFeatures}</p>
           </div>

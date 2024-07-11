@@ -31,7 +31,7 @@ export default function WhyUs({Service,description}:{description:any,Service:any
               <div className="w-12 h-12 rounded-full bg-brand flex items-center justify-center">
                 <Icon size={34} color="white" />
               </div>
-              <h3 className="ml-4 font-bold text-xl">{title}</h3>
+              <h1 className="ml-4 font-bold text-xl">{title}</h1>
             </div>
             <p>
                {description}.

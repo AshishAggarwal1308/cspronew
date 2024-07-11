@@ -6,7 +6,7 @@ function TermsConditions() {
             <div className="container-fluid" style={{ padding:'50px', marginTop:'100px'}}>
                 <div className="row">
                     <div>
-                        <h3 style={{fontSize:'32px'}}>Our Term & Conditions</h3>
+                        <h1 style={{fontSize:'32px'}}>Our Term & Conditions</h1>
                     </div>
                     <p>
                         <br></br><br></br><b>Introduction</b><br></br><br></br>

@@ -5,7 +5,7 @@ function page() {
         <div className="container-fluid" style={{ padding: '50px', marginTop: '100px' }}>
             <div className="row">
                 <div>
-                    <h3 style={{ fontSize: '32px' }}>Our Shipping Policy</h3>
+                    <h1 style={{ fontSize: '32px' }}>Our Shipping Policy</h1>
                 </div>
                 <p>
                     <br></br><br></br><b>Overview</b><br /><br />
