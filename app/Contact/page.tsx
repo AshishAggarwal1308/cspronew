@@ -7,6 +7,8 @@ import FAQSection from "../Components/Faq";
 export default function page() {
   return (
     <div>
+        <title>Contact CSProTechnology - Reach Out for Innovative Solutions</title>
+        <meta name="description" content="Contact CSProTechnology to explore our innovative technology solutions. Reach out to us for inquiries, collaborations, or any assistance you need." />
         <ContactIntro />
         <ContactCards />
         <Contact />

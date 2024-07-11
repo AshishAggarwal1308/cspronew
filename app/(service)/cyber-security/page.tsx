@@ -18,6 +18,8 @@ const para2 = "We offer a wide range of cybersecurity solutions including threat
 export default function Page() {
   return (
     <div>
+      <title>Cyber Security Services Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Trusted cyber security services company, safeguarding businesses with advanced solutions. Protect your data and operations. Contact us today!" />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}

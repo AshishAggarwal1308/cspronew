@@ -11,6 +11,8 @@ import { World } from "../ui/global";
 export default function page() {
   return (
     <div className="pt-16">
+      <title>About us | CSProTechnology</title>
+      <meta name="description" content="Learn about CSProTechnology's mission, values, and expertise in innovative technology solutions." />
       <CompanyIntro />
       <GlobeDemo />
       <InfiniteMovingCardsDemo/>

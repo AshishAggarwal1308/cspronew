@@ -10,6 +10,8 @@ import Typography from '@mui/material/Typography';
 export default function Page() {
   return (
     <div>
+      <title>Explore CSProTechnology Latest Blog Posts</title>
+      <meta name="description" content="Discover the latest insights and updates from CSProTechnology. Stay informed with our comprehensive range of blog posts covering technology trends, tutorials, and industry news." />
       <div className="flex items-center justify-center w-[98.9vw] lg:h-[94vh] bg-cover bg-center relative" style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/wooden-blocks-with-text-blog-wood-table-copy-space-white-background_1009751-3484.jpg?w=900)', backgroundPosition: 'center center', backgroundSize: 'cover' }} />
       <h3 style={{ paddingLeft: '50px', marginTop: '40px', fontSize: '32px' }}>Popular Blogs</h3>
       <div style={{ padding: '50px', display: 'flex', flexWrap: 'wrap', gap: '40px', justifyContent: 'center' }}>
@@ -28,7 +30,7 @@ export default function Page() {
             </Typography>
           </CardContent>
           <CardActions>
-          <Button size="small" style={{color:'#AF1E3B'}}>Read More</Button>
+            <Button size="small" style={{ color: '#AF1E3B' }}>Read More</Button>
           </CardActions>
         </Card>
         <Card sx={{ maxWidth: 345, boxShadow: '6px 6px 16px black' }}>
@@ -42,11 +44,11 @@ export default function Page() {
               Mind into machines
             </Typography>
             <Typography variant="body2" color="text.secondary">
-            Artificial intelligence (AI) involves creating intelligent computer programs and machines that can interact with the real world similarly to humans. AI uses techniques like...
+              Artificial intelligence (AI) involves creating intelligent computer programs and machines that can interact with the real world similarly to humans. AI uses techniques like...
             </Typography>
           </CardContent>
           <CardActions>
-          <Button size="small" style={{color:'#AF1E3B'}}>Read More</Button>
+            <Button size="small" style={{ color: '#AF1E3B' }}>Read More</Button>
           </CardActions>
         </Card>
         <Card sx={{ maxWidth: 345, boxShadow: '6px 6px 16px black' }}>
@@ -60,11 +62,11 @@ export default function Page() {
               Every byte counts matters
             </Typography>
             <Typography variant="body2" color="text.secondary">
-            Bytes are enormously important in Computer Science, they are utilised to measure everything from the amount of storage a drive can hold to the amount of memory in a console...
+              Bytes are enormously important in Computer Science, they are utilised to measure everything from the amount of storage a drive can hold to the amount of memory in a console...
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" style={{color:'#AF1E3B'}}>Read More</Button>
+            <Button size="small" style={{ color: '#AF1E3B' }}>Read More</Button>
           </CardActions>
         </Card>
       </div>

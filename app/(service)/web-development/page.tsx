@@ -20,6 +20,8 @@ const description=""
 export default function Page() {
   return (
     <div>
+      <title>Web Development Service Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Top web development company. We create custom, SEO-optimized websites designed to boost your traffic and business growth. Connect with us today!" />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}

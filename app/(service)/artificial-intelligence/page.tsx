@@ -21,6 +21,8 @@ const para2 = "Our AI services include natural language processing, computer vis
 export default function Page() {
   return (
     <div>
+      <title>Artificial Intelligence Services Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Leading Artificial Intelligence services company, transforming businesses with cutting-edge AI solutions. Contact us today to innovate and grow your business!" />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}

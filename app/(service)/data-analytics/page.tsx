@@ -18,6 +18,8 @@ const para2 = "We offer a wide range of data analytics solutions including data 
 export default function Page() {
   return (
     <div>
+      <title>Data Analytics Services Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Leading data analytics services company, delivering actionable insights for business growth. Unlock the power of data with our expert solutions." />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}

@@ -18,6 +18,8 @@ const para2 = "Our team of experts works with leading cloud platforms such as AW
 export default function Page() {
   return (
     <div>
+      <title>IT Consulting Services Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Top IT consulting services company, providing strategic solutions for business success. Partner with us for expert guidance. Contact now!" />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}

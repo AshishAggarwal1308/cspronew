@@ -21,6 +21,8 @@ const para2 = "Our app development services cover a wide range of industries, in
 export default function Page() {
   return (
     <div>
+      <title>Mobile App Development Company | CSProTechnology</title>
+      <meta name="description" content="CSProTechnology: Leading mobile app development company, crafting innovative apps for businesses. Partner with us for high-performance, user-friendly mobile solutions. Contact now!  " />
       <ServiceHero
         title={pageTitle}
         subtitle={pageSubtitle}
