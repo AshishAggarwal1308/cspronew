@@ -7,18 +7,6 @@ import Provider from "./Provider";
 
 
 
-export const metadata: Metadata = {
-  title: "csprotechnology",
-  description: "A It Service Website",
-  verification: {
-    "google": "ufngsmGsrTOifIF1cqrUpwCal-XaF-NhDrw5fT7GX7M",
-    other: {
-      "google-site-verificatio": "ufngsmGsrTOifIF1cqrUpwCal-XaF-NhDrw5fT7GX7M"
-    }
-  },
-};
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
