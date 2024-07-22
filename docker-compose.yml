@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: cspro-frontend
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: cspro-frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: unless-stopped
